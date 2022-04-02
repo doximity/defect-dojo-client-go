@@ -8,14 +8,17 @@ This client is generated automatically from the DefectDojo OpenAPI 3.0 spec, usi
 Import the module:
 
 ```go
-import dd "github.com/doximity/defect-dojo-client-go"
+import (
+	dd "github.com/doximity/defect-dojo-client-go"
+	"github.com/deepmap/oapi-codegen/pkg/securityprovider"
+)
 ```
 
 Create a client:
 
 ```go
 url := "https://demo.defectdojo.org"
-token := os.Getenv("DEFECTDOJO_APIKEY")
+token := os.Getenv("DOJO_APIKEY")
 
 tokenProvider, err := securityprovider.NewSecurityProviderApiKey("header", "Authorization", fmt.Sprintf("Token %s", token))
 if err != nil {
@@ -25,10 +28,10 @@ if err != nil {
 client, err := dd.NewClientWithResponses(url, dd.WithRequestEditorFn(tokenProvider.Intercept))
 ```
 
-Make a request:
+Make a request (in this case create a product, i.e. `POST /products/`):
 
 ```go
-apiResp, err := r.provider.client.ProductsCreateWithResponse(ctx, dd.ProductsCreateJSONRequestBody{
+apiResp, err := client.ProductsCreateWithResponse(ctx, dd.ProductsCreateJSONRequestBody{
 	Name:        "My Product",
 	Description: "A description",
 	ProdType:    1,
