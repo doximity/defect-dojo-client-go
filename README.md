@@ -54,3 +54,11 @@ To build the client, run:
 ```bash
 $ oapi-codegen Defect-Dojo-API-v2.x.x.json > defectdojo.gen.go
 ```
+
+## Contributing
+
+Pull requests are welcome. By contributing to this repository you are agreeing to the [Contributor License Agreement (CONTRIBUTING.md)](./CONTRIBUTING.md)
+
+## Licencse
+
+Licensed under the Apache v2 license. See [LICENSE.txt](./LICENSE.txt)
