@@ -3,6 +3,8 @@ DefectDojo API client in Go
 
 This client is generated automatically from the DefectDojo OpenAPI 3.0 spec, using [github.com/deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen). So it has some quirks.
 
+API Documentation: https://pkg.go.dev/github.com/doximity/defect-dojo-client-go
+
 ## Usage
 
 Import the module:
