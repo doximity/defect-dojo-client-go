@@ -3,7 +3,7 @@ module github.com/doximity/defect-dojo-client-go
 go 1.17
 
 require (
-	github.com/deepmap/oapi-codegen v1.12.4
+	github.com/deepmap/oapi-codegen v1.9.1
 	github.com/getkin/kin-openapi v0.112.0
 	github.com/labstack/echo/v4 v4.9.1
 	gopkg.in/yaml.v2 v2.4.0
