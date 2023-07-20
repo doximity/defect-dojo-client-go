@@ -8079,16 +8079,16 @@ type FindingsListParams struct {
 	ComponentVersion *string `json:"component_version,omitempty"`
 
 	// The date the finding was created inside DefectDojo.
-	Created     *FindingsListParamsCreated `json:"created,omitempty"`
-	Cve         *string                    `json:"cve,omitempty"`
-	Cvssv3      *string                    `json:"cvssv3,omitempty"`
-	Cvssv3Score *float32                   `json:"cvssv3_score,omitempty"`
+	Created     *string  `json:"created,omitempty"`
+	Cve         *string  `json:"cve,omitempty"`
+	Cvssv3      *string  `json:"cvssv3,omitempty"`
+	Cvssv3Score *float32 `json:"cvssv3_score,omitempty"`
 
 	// Multiple values may be separated by commas.
 	Cwe *[]int `json:"cwe,omitempty"`
 
 	// The date the flaw was discovered.
-	Date *FindingsListParamsDate `json:"date,omitempty"`
+	Date *string `json:"date,omitempty"`
 
 	// Multiple values may be separated by commas.
 	DefectReviewRequestedBy *[]int  `json:"defect_review_requested_by,omitempty"`
@@ -8131,7 +8131,7 @@ type FindingsListParams struct {
 	Limit *int `json:"limit,omitempty"`
 
 	// Denotes if this flaw has been fixed by storing the date it was fixed.
-	Mitigated *FindingsListParamsMitigated `json:"mitigated,omitempty"`
+	Mitigated *string `json:"mitigated,omitempty"`
 
 	// Multiple values may be separated by commas.
 	MitigatedBy *[]int  `json:"mitigated_by,omitempty"`
@@ -73336,4 +73336,3 @@ func GetSwagger() (swagger *openapi3.T, err error) {
 	}
 	return
 }
-
