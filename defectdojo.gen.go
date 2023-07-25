@@ -8251,7 +8251,7 @@ type FindingsListParamsJiraCreation time.Time
 type FindingsListParamsLastReviewed time.Time
 
 // FindingsListParamsMitigated defines parameters for FindingsList.
-type FindingsListParamsMitigated *string
+type FindingsListParamsMitigated string
 
 // FindingsListParamsO defines parameters for FindingsList.
 type FindingsListParamsO string
