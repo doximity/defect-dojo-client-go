@@ -8251,7 +8251,7 @@ type FindingsListParamsJiraCreation time.Time
 type FindingsListParamsLastReviewed time.Time
 
 // FindingsListParamsMitigated defines parameters for FindingsList.
-type FindingsListParamsMitigated time.Time
+type FindingsListParamsMitigated *string
 
 // FindingsListParamsO defines parameters for FindingsList.
 type FindingsListParamsO string
@@ -73336,4 +73336,3 @@ func GetSwagger() (swagger *openapi3.T, err error) {
 	}
 	return
 }
-
