@@ -5074,11 +5074,9 @@
             "in": "query",
             "name": "created",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -5122,10 +5120,8 @@
             "in": "query",
             "name": "date",
             "schema": {
-              "type": "string",
-              "format": "date",
+              "type": "number",
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -5299,12 +5295,10 @@
             "in": "query",
             "name": "jira_change",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "title": "Jira last update",
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -5320,11 +5314,9 @@
             "in": "query",
             "name": "jira_creation",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -5340,11 +5332,9 @@
             "in": "query",
             "name": "last_reviewed",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -5390,11 +5380,9 @@
             "in": "query",
             "name": "mitigated",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7447,11 +7435,9 @@
             "in": "query",
             "name": "created",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7495,10 +7481,8 @@
             "in": "query",
             "name": "date",
             "schema": {
-              "type": "string",
-              "format": "date",
+              "type": "number",
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7672,12 +7656,10 @@
             "in": "query",
             "name": "jira_change",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "title": "Jira last update",
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7693,11 +7675,9 @@
             "in": "query",
             "name": "jira_creation",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7713,11 +7693,9 @@
             "in": "query",
             "name": "last_reviewed",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -7763,11 +7741,9 @@
             "in": "query",
             "name": "mitigated",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -16124,11 +16100,9 @@
             "in": "query",
             "name": "created",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
@@ -16457,11 +16431,9 @@
             "in": "query",
             "name": "updated",
             "schema": {
-              "type": "string",
-              "format": "date-time",
+              "type": "number",
               "nullable": true,
               "enum": [
-                "",
                 1,
                 2,
                 3,
